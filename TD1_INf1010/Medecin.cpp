@@ -11,7 +11,8 @@
 Medecin::Medecin(const string& nom)
 {
 	nom_ = nom;
-	//check si dois initialiser specialiste
+	specialite_ = nullptr;
+	salaire_ = 0;
 }
 
 Medecin::Medecin(const string& nom,Specialite * uneSpecialite, float salaire)
@@ -41,10 +42,21 @@ void Medecin::setSpecialite( Specialite * specialite)
 	specialite_ = specialite;
 }
 float Medecin::calculerSalaire() const{
+	if (specialite_ == nullptr) {
+		return salaire_;
+	}
 	return salaire_ * specialite_->getNiveau();
 } 
 ostream &Medecin::afficher(ostream &out) const
 {  
-	out << "";
+	/*"Nom: DrOz\n"
+		"Domaine: Chirurgie\n"
+		"Niveau: 6\n"
+		"Salaire: 540000 $\n";*/
+	out << "Nom: " << nom_ << "\n" <<
+		"Domaine: " << specialite_->getDomaine() << "\n" <<
+		"Niveau: " << specialite_->getNiveau() << "\n" <<
+		"Salaire: " << calculerSalaire() << " $\n";
+	return out;
 }
 

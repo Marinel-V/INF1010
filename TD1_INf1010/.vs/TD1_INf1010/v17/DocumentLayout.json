@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\",
+  "WorkspaceRootPath": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Medecin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Medecin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Specialite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Specialite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\TestSuite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:TestSuite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Specialite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Specialite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\HopitalPoly.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:HopitalPoly.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Infirmier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Infirmier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Medecin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD802435-0171-4B3B-957B-F79A6B827487}|TD1_INf1010.vcxproj|solutionrelative:Medecin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Medecin.cpp",
-              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Medecin.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Medecin.cpp",
               "RelativeDocumentMoniker": "Medecin.cpp",
-              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Medecin.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Medecin.cpp",
               "RelativeToolTip": "Medecin.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-16T19:45:15.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Specialite.cpp",
-              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.cpp",
-              "RelativeDocumentMoniker": "Specialite.cpp",
-              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.cpp",
-              "RelativeToolTip": "Specialite.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAzwCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Infirmier.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Infirmier.cpp",
+              "RelativeDocumentMoniker": "Infirmier.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Infirmier.cpp",
+              "RelativeToolTip": "Infirmier.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-16T19:43:45.587Z"
+              "WhenOpened": "2025-01-17T15:23:18.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Specialite.h",
-              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.h",
-              "RelativeDocumentMoniker": "Specialite.h",
-              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Specialite.h",
-              "RelativeToolTip": "Specialite.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-16T19:43:42.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestSuite.cpp",
-              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\TestSuite.cpp",
-              "RelativeDocumentMoniker": "TestSuite.cpp",
-              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\TestSuite.cpp",
-              "RelativeToolTip": "TestSuite.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Title": "HopitalPoly.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\HopitalPoly.cpp",
+              "RelativeDocumentMoniker": "HopitalPoly.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\HopitalPoly.cpp",
+              "RelativeToolTip": "HopitalPoly.cpp",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAzwF4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-16T18:55:24.417Z"
+              "WhenOpened": "2025-01-17T15:18:44.131Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Specialite.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Specialite.cpp",
+              "RelativeDocumentMoniker": "Specialite.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Specialite.cpp",
+              "RelativeToolTip": "Specialite.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T19:43:45.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Main.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD1_INf1010\\Main.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\INF1010\\TD1_INf1010\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAIAzwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-16T18:53:54.637Z"
+              "WhenOpened": "2025-01-16T18:53:54.637Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -93,7 +93,6 @@ int main()
 			"Heures travaillées: 5 heures\n"
 			"Total chambres gérées: 2\n"
 			"Liste des chambres: 101 102 \n";
-		
 		assert(output == expectedOutput, "Erreur: le format de l'affichage de l'infirmier est incorrect");
 	});
 
@@ -203,6 +202,7 @@ int main()
 		Medecin m("House");
 		h.ajouterMedecin(&m);
 		h.supprimerMedecin(&m);
+
 		assert(h.getMedecins().empty(), "Erreur: médecin non supprimé");
 	});
 

@@ -12,59 +12,91 @@
 #include <iostream>
 #include "Const.h"
 HopitalPoly::HopitalPoly(const string & nom) {
-	// todo
+	nom_ = nom;
 }
 string  HopitalPoly::getNom() const
-{  // todo
+{  
+	return nom_;
 }
 vector<Medecin*> HopitalPoly:: getMedecins() const
-{ // todo
+{ 
+	return tableauMedecins_;
 }
 
 vector<Infirmier*> HopitalPoly::getInfirmiers() const
-{ // todo
+{ 
+	return tableauInfirmiers_;
 }
 void  HopitalPoly::setNom( string  nom)
-{ // todo
+{ 
+	nom_ = nom;
 }
 	// Methodes publiques
 bool HopitalPoly::chercherMedecin(const Medecin * unMedecin)const
 {
-	// todo	  
+	for (Medecin* medecin : tableauMedecins_) {
+		if (medecin->getNom() == unMedecin->getNom()) {
+			return true;
+		}
+	}
+	return false;
 }
 
 void HopitalPoly::ajouterMedecin( Medecin * unMedecin)
 {
-	// todo
-
+	tableauMedecins_.push_back(unMedecin);
 }
 void HopitalPoly::supprimerMedecin(const Medecin * unMedecin)
 {
-	 // todo
+	for (int i = 0; i < tableauMedecins_.size(); i++) {
+		if (tableauMedecins_[i]->getNom() == unMedecin->getNom()) {
+			tableauMedecins_.erase(tableauMedecins_.begin() + i);
+			return;
+		}
+	}
 }
 
 bool HopitalPoly::chercherInfirmier(const Infirmier * unInfirmier)const
-{  // todo
+{ 
+	for (Infirmier* infirmier: tableauInfirmiers_) {
+		if (infirmier->getNom() == unInfirmier->getNom()) {
+			return true;
+		}
+	}
+	return false;
 }
 
 void HopitalPoly::ajouterInfirmier(Infirmier * unInfirmier)
 {
-	// todo
-
+	tableauInfirmiers_.push_back(unInfirmier);
 }
 void HopitalPoly::supprimerInfirmier(const Infirmier * unInfirmier)
 {
-	 // todo
+	for (int i = 0; i < tableauInfirmiers_.size(); i++) {
+		if (tableauInfirmiers_[i]->getNom() == unInfirmier->getNom()) {
+			tableauInfirmiers_.erase(tableauInfirmiers_.begin() + i);
+			return;
+		}
+	}
 }
 
 void HopitalPoly:: afficherMedecins(ostream &out) const
 { 
-	// todo 
+	for (Medecin* medecin : tableauMedecins_) {
+		medecin->afficher(out);
+	}
 }
 void HopitalPoly::afficherInfirmiers(ostream &out) const
 {
-	 // todo
+	for (Infirmier *infirmier : tableauInfirmiers_) {
+		infirmier->afficher(out);
+	}
 }
 ostream &HopitalPoly::afficher(ostream &out) const{
-	// todo
+	out << "Nom de l'Hopital: " << nom_ << "\n" <<
+		"Liste des infirmiers:\n";
+	afficherInfirmiers(out);
+	out << "Liste des médecins:\n";
+	afficherMedecins(out);
+	return out;
 }

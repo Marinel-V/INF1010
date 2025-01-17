@@ -66,6 +66,7 @@ void Infirmier::ajouterChambre(const string& nbChambre) {
 		}
 	}
 	listChambres_.push_back(nbChambre);
+	totalChambres_++;
 }
 
 void Infirmier::retirerChambre(const string& nbChambre) {
@@ -85,12 +86,22 @@ void Infirmier::ajouterHeuresTravaillees(unsigned heures) {
 }
 
 float  Infirmier::calculerSalaire() {
-	float salaire = heuresTravaillees_* tauxHoraire_ + totalChambres_ * tauxHoraire_ / 20;
+	float salaire = (heuresTravaillees_* tauxHoraire_ + (totalChambres_ * tauxHoraire_ / 20.0));
 	heuresTravaillees_ = 0;
 	return salaire;
 }
 
 ostream& Infirmier::afficher(ostream& out) const
 {
-	out << nom_ << endl << prenom_;
+	out << "Nom: " << nom_ << "\n" <<
+		"Prenom: " << prenom_ << "\n" <<
+		"Taux horaire: " << tauxHoraire_ << " $/h" << "\n" <<
+		"Heures travaillées: " << heuresTravaillees_ << " heures" << "\n" <<
+		"Total chambres gérées: " << totalChambres_ << "\n" <<
+		"Liste des chambres: ";
+	for (string chambre : listChambres_) {
+		out << chambre << " ";
+	}
+	out << "\n";
+	return out;
 }

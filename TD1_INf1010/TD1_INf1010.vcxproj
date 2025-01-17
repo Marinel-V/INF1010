@@ -127,12 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="._HopitalPoly.cpp" />
-    <ClCompile Include="._Infirmier.cpp" />
-    <ClCompile Include="._Main.cpp" />
-    <ClCompile Include="._Medecin.cpp" />
-    <ClCompile Include="._Specialite.cpp" />
-    <ClCompile Include="._TestSuite.cpp" />
     <ClCompile Include="HopitalPoly.cpp" />
     <ClCompile Include="Infirmier.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -141,11 +135,6 @@
     <ClCompile Include="TestSuite.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="._HopitalPoly.h" />
-    <ClInclude Include="._Infirmier.h" />
-    <ClInclude Include="._Medecin.h" />
-    <ClInclude Include="._Specialite.h" />
-    <ClInclude Include="._TestSuite.h" />
     <ClInclude Include="Const.h" />
     <ClInclude Include="HopitalPoly.h" />
     <ClInclude Include="Infirmier.h" />
@@ -154,7 +143,6 @@
     <ClInclude Include="TestSuite.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="._Makefile" />
     <None Include="Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

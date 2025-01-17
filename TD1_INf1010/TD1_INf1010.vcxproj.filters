@@ -15,24 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="._HopitalPoly.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="._Infirmier.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="._Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="._Medecin.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="._Specialite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="._TestSuite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="HopitalPoly.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -53,21 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="._HopitalPoly.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="._Infirmier.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="._Medecin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="._Specialite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="._TestSuite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="HopitalPoly.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -88,7 +55,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="._Makefile" />
     <None Include="Makefile" />
   </ItemGroup>
 </Project>
