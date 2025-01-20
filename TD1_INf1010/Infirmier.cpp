@@ -10,7 +10,6 @@ Infirmier::Infirmier(const string& nom, const std::string& prenom, const float& 
 	tauxHoraire_ = tauxHoraire;
 	totalChambres_ = 0;
 	heuresTravaillees_ = 0;
-	//check if need to initialise vector litChambres_
 }
 
 string Infirmier::getNom() const
@@ -96,8 +95,8 @@ ostream& Infirmier::afficher(ostream& out) const
 	out << "Nom: " << nom_ << "\n" <<
 		"Prenom: " << prenom_ << "\n" <<
 		"Taux horaire: " << tauxHoraire_ << " $/h" << "\n" <<
-		"Heures travaillées: " << heuresTravaillees_ << " heures" << "\n" <<
-		"Total chambres gérées: " << totalChambres_ << "\n" <<
+		"Heures travaillees: " << heuresTravaillees_ << " heures" << "\n" <<
+		"Total chambres gerees: " << totalChambres_ << "\n" <<
 		"Liste des chambres: ";
 	for (string chambre : listChambres_) {
 		out << chambre << " ";

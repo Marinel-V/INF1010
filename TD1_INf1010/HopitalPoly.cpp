@@ -96,7 +96,7 @@ ostream &HopitalPoly::afficher(ostream &out) const{
 	out << "Nom de l'Hopital: " << nom_ << "\n" <<
 		"Liste des infirmiers:\n";
 	afficherInfirmiers(out);
-	out << "Liste des médecins:\n";
+	out << "Liste des medecins:\n";
 	afficherMedecins(out);
 	return out;
 }
