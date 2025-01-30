@@ -72,7 +72,7 @@ void Infirmier::retirerChambre(const string& nbChambre) {
 	for (int i = 0; i < listChambres_.size(); i++) {
 		if (listChambres_[i] == nbChambre) {
 			listChambres_.erase(listChambres_.begin() + i);
-			totalChambres_++;
+			totalChambres_--;
 		}
 	}
 }
@@ -92,8 +92,7 @@ float  Infirmier::calculerSalaire() {
 
 ostream& Infirmier::afficher(ostream& out) const
 {
-	out << "Nom: " << nom_ << "\n" <<
-		"Prenom: " << prenom_ << "\n" <<
+	out << "Nom: " << nom_ <<  endl<<		"Prenom: " << prenom_ << "\n" <<
 		"Taux horaire: " << tauxHoraire_ << " $/h" << "\n" <<
 		"Heures travaillees: " << heuresTravaillees_ << " heures" << "\n" <<
 		"Total chambres gerees: " << totalChambres_ << "\n" <<

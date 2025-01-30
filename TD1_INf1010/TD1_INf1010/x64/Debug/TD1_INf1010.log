@@ -1,2 +1,6 @@
 ﻿  HopitalPoly.cpp
+  Infirmier.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TD1_INf1010\Infirmier.cpp(30,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Marinel\Documents\INF1010\INF1010\TD1_INf1010\Infirmier.cpp(88,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
   TD1_INf1010.vcxproj -> C:\Users\Marinel\Documents\INF1010\INF1010\TD1_INf1010\x64\Debug\TD1_INf1010.exe

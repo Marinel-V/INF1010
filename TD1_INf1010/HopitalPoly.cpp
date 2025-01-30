@@ -44,6 +44,10 @@ bool HopitalPoly::chercherMedecin(const Medecin * unMedecin)const
 
 void HopitalPoly::ajouterMedecin( Medecin * unMedecin)
 {
+	for(Medecin* medecin : tableauMedecins_)
+		if (medecin->getNom() == unMedecin->getNom()) {
+			return;
+	}
 	tableauMedecins_.push_back(unMedecin);
 }
 void HopitalPoly::supprimerMedecin(const Medecin * unMedecin)
@@ -68,6 +72,11 @@ bool HopitalPoly::chercherInfirmier(const Infirmier * unInfirmier)const
 
 void HopitalPoly::ajouterInfirmier(Infirmier * unInfirmier)
 {
+	for (Infirmier* infirmier : tableauInfirmiers_) {
+		if (infirmier->getNom() == unInfirmier->getNom()) {
+			return;
+		}
+	}
 	tableauInfirmiers_.push_back(unInfirmier);
 }
 void HopitalPoly::supprimerInfirmier(const Infirmier * unInfirmier)
