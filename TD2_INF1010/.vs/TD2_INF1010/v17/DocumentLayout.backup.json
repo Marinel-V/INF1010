@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1224B360-C1E6-47F6-898A-8CAB330F1925}|TD2_INF1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\ReseauHopital.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1224B360-C1E6-47F6-898A-8CAB330F1925}|TD2_INF1010.vcxproj|solutionrelative:ReseauHopital.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1224B360-C1E6-47F6-898A-8CAB330F1925}|TD2_INF1010.vcxproj|C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\HopitalPoly.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1224B360-C1E6-47F6-898A-8CAB330F1925}|TD2_INF1010.vcxproj|solutionrelative:HopitalPoly.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReseauHopital.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\ReseauHopital.cpp",
+              "RelativeDocumentMoniker": "ReseauHopital.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\ReseauHopital.cpp",
+              "RelativeToolTip": "ReseauHopital.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAjwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-29T01:05:11.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HopitalPoly.cpp",
+              "DocumentMoniker": "C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\HopitalPoly.cpp",
+              "RelativeDocumentMoniker": "HopitalPoly.cpp",
+              "ToolTip": "C:\\Users\\Marinel\\Documents\\INF1010\\TD2_INF1010\\HopitalPoly.cpp",
+              "RelativeToolTip": "HopitalPoly.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-29T00:29:42.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

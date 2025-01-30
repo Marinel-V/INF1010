@@ -1,0 +1,48 @@
+﻿  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244: 'argument': conversion from '_Ty' to 'const float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         ]
+  (compiling source file 'Main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\TD2_INF1010\Main.cpp(159,32):
+          see reference to function template instantiation 'std::shared_ptr<Infirmier> std::make_shared<Infirmier,const char(&)[9],const char(&)[12],double>(const char (&)[9],const char (&)[12],double &&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\memory(2906,46):
+          see reference to function template instantiation 'std::_Ref_count_obj2<Infirmier>::_Ref_count_obj2<const char(&)[9],const char(&)[12],_Ty>(const char (&)[9],const char (&)[12],_Ty &&)' being compiled
+          with
+          [
+              _Ty=double
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\memory(2095,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<_Ty,const char(&)[9],const char(&)[12],double>(_Ty &,const char (&)[9],const char (&)[12],double &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Infirmier
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         ]
+  (compiling source file 'Main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\xutility(406,82):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\TD2_INF1010\Main.cpp(197,31):
+          see reference to function template instantiation 'std::shared_ptr<Medecin> std::make_shared<Medecin,const char(&)[6],double,Specialite*>(const char (&)[6],double &&,Specialite *&&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\memory(2906,46):
+          see reference to function template instantiation 'std::_Ref_count_obj2<Medecin>::_Ref_count_obj2<const char(&)[6],_Ty,Specialite*>(const char (&)[6],_Ty &&,Specialite *&&)' being compiled
+          with
+          [
+              _Ty=double
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\memory(2095,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<_Ty,const char(&)[6],double,Specialite*>(_Ty &,const char (&)[6],double &&,Specialite *&&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Medecin
+          ]
+  
+  TD2_INF1010.vcxproj -> C:\Users\Marinel\Documents\INF1010\TD2_INF1010\x64\Debug\TD2_INF1010.exe
