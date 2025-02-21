@@ -1,0 +1,54 @@
+﻿  Cardiologue.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Cardiologue.cpp(8,8): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Cardiologue.cpp(8,8): error C2512: 'Medecin': no appropriate default constructor available
+      C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Medecin.h(19,7):
+      see declaration of 'Medecin'
+  
+  Chirurgien.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Chirurgien.cpp(7,89): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Chirurgien.cpp(7,89): error C2512: 'Medecin': no appropriate default constructor available
+      C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Medecin.h(19,7):
+      see declaration of 'Medecin'
+  
+  Employe.cpp
+  HopitalPoly.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13): error C3861: 'listes': identifier not found
+  (compiling source file 'HopitalPoly.cpp')
+      C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(8,7):
+          while compiling class template 'Liste'
+  
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13): error C2065: 'listes': undeclared identifier
+  (compiling source file 'HopitalPoly.cpp')
+  
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\HopitalPoly.cpp(6,48): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\HopitalPoly.cpp(11,50): error C2059: syntax error: '{'
+  Infirmier.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Infirmier.cpp(12,1): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Infirmier.cpp(17,43): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Infirmier.cpp(67,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Main.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13): error C3861: 'listes': identifier not found
+  (compiling source file 'Main.cpp')
+      C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(8,7):
+          while compiling class template 'Liste'
+  
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Liste.h(69,13): error C2065: 'listes': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+  Medecin.cpp
+  Patient.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Patient.cpp(8,8): error C2059: syntax error: '{'
+  Pediatre.cpp
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Pediatre.cpp(8,7): error C2059: syntax error: '{'
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Pediatre.cpp(8,7): error C2512: 'Medecin': no appropriate default constructor available
+      C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Medecin.h(19,7):
+      see declaration of 'Medecin'
+  
+  Specialite.cpp
+  TestSuite.cpp
+  Generating Code...
+C:\Users\Marinel\Documents\INF1010\INF1010\TP3\Medecin.cpp(44,1): error C4716: 'Medecin::operator==': must return a value
