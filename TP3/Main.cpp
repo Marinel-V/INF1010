@@ -177,7 +177,7 @@ int main() {
         cout.rdbuf(oldCout);
 
         string output = oss.str();
-        string expectedOutput = 
+        string expectedOutput =  
             "Nom: John Doe\n"
             "Âge: 30 ans\n"
             "Numéro de salle: 101\n"
@@ -266,6 +266,7 @@ int main() {
 		"Mes certifications sont:\n"
         "> Certificat A\n"
         "> Certificat B\n";
+
 
 		assert(output == expectedOutput, "Erreur: le format de l'affichage de l'infirmier est incorrect");
     });
@@ -749,7 +750,6 @@ int main() {
             "Taux horaire: 25 $/h\n"
             "Heures travaillees: 0 heures\n"
             "Liste des chambres: Aucune chambre assignee.\n\n";
-
         assert(output == expectedOutput, "Erreur: L'affichage de l'hôpital est incorrect.");
 
         // Affichage d'un hôpital sans employés

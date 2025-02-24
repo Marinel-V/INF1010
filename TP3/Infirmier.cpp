@@ -8,13 +8,14 @@ int Infirmier::nTypeSoin_ = 0;
 // - Initialiser heuresTravaillees_ à 0.
 Infirmier::Infirmier(const string & nom, 
                     const std::string & prenom, 
-					const float & tauxHoraire):
-{  
+					const float & tauxHoraire): Employe(nom),prenom_(prenom),tauxHoraire_(tauxHoraire)
+{
+    heuresTravaillees_ = 0;
 }
 
 // TODO: Implémenter le constructeur de copie de Infirmier.
 // - Copier tous les attributs de l'infirmier passé en paramètre.
-Infirmier::Infirmier(const Infirmier &a): {}
+Infirmier::Infirmier(const Infirmier &a): Employe(a.nom_), prenom_(a.prenom_),tauxHoraire_(a.tauxHoraire_), heuresTravaillees_(a.heuresTravaillees_){}
 
 
 string Infirmier::getPrenom() const
@@ -57,6 +58,7 @@ unsigned Infirmier::getHeuresTravaillees() const{
 // - Ajouter le numéro de la chambre à la liste des chambres.
 // -utiliser la fonction to_string pour la conversion
 void Infirmier::operator+=(int numeroSalle){
+    listeChambre_.push_back(to_string(numeroSalle));
 }
 
 void Infirmier::ajouterHeuresTravaillees(unsigned heures){
@@ -75,7 +77,15 @@ float  Infirmier::calculerSalaire() const {
 // - Mettre à jour le type de soins du patient. 
 // - mettre à jour nTypeSoin NB: il ne devra jamais depasser 3. Il prend uniquemnt les valeurs 0 1 et 2.
 void Infirmier::examinerPatient(shared_ptr<Patient>& p) {
-    
+    ajouterHeuresTravaillees(5);
+    *this += p->getSalle();
+    setPatient(p);
+    p->misAjourTypeSoin(static_cast<TypeSoins>(nTypeSoin_));
+    nTypeSoin_ += 1;
+    if (nTypeSoin_ >=3)
+    {
+        nTypeSoin_ = 0;
+    }
 }
 
 ostream &Infirmier::afficher(ostream &out) const

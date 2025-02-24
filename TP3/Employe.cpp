@@ -23,6 +23,6 @@ ostream& Employe::afficher(ostream &out) const {
 
 // TODO: Surcharger l'opérateur << pour afficher les informations de l'employé.
 ostream &operator<<(ostream &out, const Employe &e) {
-    out << e.nom_;
+    e.afficher(out);
     return out;
 }

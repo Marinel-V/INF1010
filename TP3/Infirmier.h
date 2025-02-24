@@ -24,8 +24,6 @@ public:
 	void setPrenom(const string& prenom);
     void setTauxHoraire (const float & tauxHoraire);
 
-    bool chercherChambre (const string & nbChambre) const;
-    
 	unsigned getHeuresTravaillees() const;
 	void ajouterHeuresTravaillees(unsigned heures);  
     

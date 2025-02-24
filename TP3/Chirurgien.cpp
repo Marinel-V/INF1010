@@ -4,16 +4,18 @@
 // Le constructeur doit initialiser les attributs privés :
 // - nbHeuresDeGarde_ avec le nombre d'heures de garde
 // - nbOperations_ à 0 (par défaut, un chirurgien commence sans opérations)
-Chirurgien::Chirurgien(const string& nom, unsigned nbHeuresGarde, unsigned int niveau): {}
+Chirurgien::Chirurgien(const string& nom, unsigned nbHeuresGarde, unsigned int niveau): Medecin(nom, new Specialite("Chirurgie", niveau)), nbHeuresDeGarde_(nbHeuresGarde), nbOperations_(0){}
 
 // TODO: Méthode getNbHeuresDeGarde
 // Cette méthode doit retourner le nombre d'heures de garde effectuées par le chirurgien
 unsigned Chirurgien::getNbHeuresDeGarde() const {
+    return nbHeuresDeGarde_;
 }
 
 // TODO: Méthode setNbHeuresDeGarde
 // Cette méthode doit modifier le nombre d'heures de garde du chirurgien
 void Chirurgien::setNbHeuresDeGarde(int nbHeuresDeGarde) {
+    nbHeuresDeGarde_ = nbHeuresDeGarde;
 }
 
 // TODO: Méthode getNbOperations
@@ -26,6 +28,7 @@ unsigned Chirurgien::getNbOperations() const {
 // Cette méthode doit ajouter un certain nombre d'opérations au chirurgien.
 // Exemple : si nbOperations = 3, alors nbOperations_ doit augmenter de 3
 void Chirurgien::ajouterNbOperations(unsigned nbOperations) {
+    nbOperations_ += nbOperations;
 }
 
 // TODO: Méthode opererPatient
@@ -35,13 +38,17 @@ void Chirurgien::ajouterNbOperations(unsigned nbOperations) {
 // 3. Ajouter un antécédent médical pour le patient concernant l'opération (Opération chirurgicale effectuée par Dr X.")
 // 4. Mettre à jour le type de soin du patient en TypeSoins::PAS_BESOIN
 void Chirurgien::opererPatient(shared_ptr<Patient>& p) {
+    ajouterNbOperations(1);
+    setPatient(p);
+    p->ajouterAntecedent("Opération chirurgicale effectuée par " + nom_+".");
+    p->misAjourTypeSoin(static_cast<TypeSoins>(3));
 }
 
 // TODO: Méthode calculerSalaire
 // Cette méthode doit calculer le salaire du chirurgien en fonction de
 // Exemple : salaireBase * niveau + (nbHeuresDeGarde * 20) + (nbOperations * 50)
 float Chirurgien::calculerSalaire() const {
-    return 0.0f; // TODO: Remplacer par le calcul du salaire
+    return salaireBase * specialite_->getNiveau() + (nbHeuresDeGarde_ * 20) + (nbOperations_ * 50);
 }
 
 // TODO: Méthode afficher (Voir les tests)
@@ -52,5 +59,8 @@ float Chirurgien::calculerSalaire() const {
 //    - Heures de garde du chirurgien
 //    - Nombre d'opérations effectuées par le chirurgien
 ostream& Chirurgien::afficher(ostream& out) const {
+    Medecin::afficher(out);
+    out<<"Heures de garde: "<<nbHeuresDeGarde_<<"\n"
+        "Opérations: "<<nbOperations_<<"\n";
     return out;
 }

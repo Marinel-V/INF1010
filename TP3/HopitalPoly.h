@@ -47,6 +47,13 @@ public:
     // - Si aucun employé disponible n'est trouvé, retourner nullptr.
 	template<typename T>
 	shared_ptr<T> trouverEmployeLibre() {
+		for (unsigned i = 0; i < employes_.size(); i++)
+		{
+			shared_ptr<T> employeType = dynamic_pointer_cast<T>(employes_[i]);
+			if (employeType != nullptr && employeType->getPatient() == nullptr) {
+				return employeType;
+			}
+		}
 		return nullptr;
 	}
 

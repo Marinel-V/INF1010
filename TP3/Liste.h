@@ -28,7 +28,7 @@ public:
     // Vérifier que les éléments n'existent pas déjà avant de les ajouter.
     Liste& operator+=(const Liste<T>& liste) {
         // TODO: Implémenter la logique d'ajout d'une liste.
-        for (T& elemAutre : liste) {
+        for (const T& elemAutre : liste.listes_) {
             for (T& elem : listes_) {
                 if (elemAutre == elem) {
                     break;
@@ -45,7 +45,7 @@ public:
         // TODO: Implémenter la logique de suppression d'un élément.
         int index = chercher(obj);
         if (index != -1) {
-            listes_.erase(index);
+            listes_.erase(listes_.begin() + index);
         }
         return *this;
     }
@@ -56,7 +56,7 @@ public:
         // TODO: Implémenter la logique de suppression par nom.
         int index = chercher(nom);
         if (index != -1) {
-            listes_.erase(index);
+            listes_.erase(listes_.begin() + index);
         }
         return *this;
     }
@@ -65,9 +65,13 @@ public:
     // Utiliser la méthode chercher pour vérifier l'existence des éléments.
     Liste& operator-=(const Liste<T>& liste) {
         // TODO: Implémenter la logique de suppression d'une liste.
-        for (T& elem : liste) {
-            listes -= elem;
+        if (liste.size() !=0)
+        {
+            for (T& elem : listes_) {
+                *this -= elem;
+            }
         }
+    	
         return *this;
     }
 
@@ -87,8 +91,8 @@ public:
     // Retourner l'index de l'élément s'il est trouvé, sinon retourner -1.
     int chercher(const string& nom) const {
         // TODO: Implémenter la recherche par nom.
-        for (int i = 0; i < listes_.size(); i++) {
-            if (listes_[i].nom_ == nom) {
+        for (unsigned i = 0; i < listes_.size(); i++) {
+            if (listes_[i]->getNom() == nom) {
                 return i;
             }
         }
@@ -98,7 +102,7 @@ public:
     // TODO: Implémenter la méthode chercher pour trouver un élément par comparaison directe.
     // Retourner l'index de l'élément s'il est trouvé, sinon retourner -1.
     int chercher(const T& obj) const {
-        for (int i = 0; i < listes_.size(); i++) {
+        for (unsigned i = 0; i < listes_.size(); i++) {
             if (listes_[i] == obj) {
                 return i;
             }

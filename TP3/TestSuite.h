@@ -18,7 +18,7 @@ class AssertionFail : public std::exception
 public:
     std::string s;
     AssertionFail(std::string ss) : s(ss) {}
-    ~AssertionFail() throw() {}
+    ~AssertionFail() throw() = default;
     const char *what() const throw() { return s.c_str(); }
 };
 

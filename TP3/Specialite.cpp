@@ -32,8 +32,8 @@ void Specialite::setNiveau(unsigned int niveau)
 
 ostream &Specialite::afficher(ostream &out) const
 {
-	out << "Domaine: " << domaine_ << endl;
-    out << "Niveau: " << niveau_ << endl;
+	out << "Domaine: " << domaine_ << "\n";
+    out << "Niveau: " << niveau_ << "\n";
 	return out;
 }
 
