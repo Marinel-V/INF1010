@@ -40,11 +40,7 @@ public:
 	bool operator==(const HopitalPoly &rhs) const;
 
 
-	// TODO: Parcourir la liste des employés pour trouver un employé disponible du type T.
-    // - Utiliser dynamic_pointer_cast pour vérifier si l'employé est du type T.
-    // - Vérifier si l'employé n'a pas de patient assigné.
-    // - Retourner un shared_ptr vers l'employé trouvé.
-    // - Si aucun employé disponible n'est trouvé, retourner nullptr.
+
 	template<typename T>
 	shared_ptr<T> trouverEmployeLibre() {
 		for (unsigned i = 0; i < employes_.size(); i++)

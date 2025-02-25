@@ -1,9 +1,6 @@
 #include "Patient.h"
 
-// TODO: Implémenter le constructeur de Patient.
-// - Initialiser le nom et l'âge du patient.
-// - Initialiser typeSoins_ à PAS_BESOIN.
-// - Initialiser infirmier_ et medecin_ à nullptr.
+
 Patient::Patient(std::string nom, int age)
     : nom_(nom), age_(age), typeSoins_(static_cast<TypeSoins>(3)), infirmier_(nullptr), medecin_(nullptr) {}
 
@@ -55,8 +52,7 @@ void Patient::assignerMedecin(const shared_ptr<Medecin>& m){
     medecin_ = m;
 }
 
-// TODO: Implémenter la méthode afficher.
-// - Afficher les informations du patient, y compris le nom, l'âge, le numéro de salle, le type de soins et les antécédents médicaux.
+
 void Patient::afficher(ostream& out) const {
     string typeSoinsStr = "";
 	switch (typeSoins_)
@@ -77,9 +73,8 @@ void Patient::afficher(ostream& out) const {
     }
 }
 
-// TODO: Surcharger l'opérateur << pour afficher les informations du patient.
+
 ostream& operator<<(ostream& out, const Patient& p) {
-    // TODO: Utiliser la méthode afficher pour afficher les informations du patient.
     p.afficher(out);
     return out;
 }
