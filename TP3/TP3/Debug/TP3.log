@@ -3,102 +3,11 @@
   Employe.cpp
   HopitalPoly.cpp
   Infirmier.cpp
-C:\Users\Marinel\Documents\INF1010\TP3\Infirmier.cpp(69,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(203,9): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(975,6): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(983,6): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.h(447,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.h(472,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.h(489,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(85,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(94,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(100,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(106,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(112,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(118,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(493,21): error C2872: 'byte': ambiguous symbol
-  (compiling source file 'Main.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h(202,23):
-      could be 'unsigned char byte'
-      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\cstddef(34,24):
-      or       'std::byte'
-  
   Medecin.cpp
   Patient.cpp
   Pediatre.cpp
   Specialite.cpp
   TestSuite.cpp
   Generating Code...
+  TP3.vcxproj -> C:\Users\Marinel\Documents\INF1010\TP3\Debug\TP3.exe

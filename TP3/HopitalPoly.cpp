@@ -82,7 +82,7 @@ float HopitalPoly::coutSalarialTotal() const {
 void HopitalPoly::accueillirPatient(shared_ptr<Patient>& patient) {
     if (patients_.chercher(patient) == -1)
     {
-        patient->misAjourSalle(patients_.size());
+        patient->misAjourSalle(static_cast<int>(patients_.size()));
         patients_ += patient;
         chambreLibre_ += 1;
     }
@@ -113,6 +113,7 @@ void HopitalPoly::traiterPatients() {
                 medecin->opererCoeur(patients_[i]);
                 patients_ -= patients_[i];
             }
+            break;
         }
         case TypeSoins::CHIRURGICAL: {
             shared_ptr<Chirurgien> medecin = trouverEmployeLibre<Chirurgien>();
@@ -121,6 +122,7 @@ void HopitalPoly::traiterPatients() {
                 medecin->opererPatient(patients_[i]);
                 patients_ -= patients_[i];
             }
+            break;
         }
         case TypeSoins::PEDIATRIE: {
             shared_ptr<Pediatre> medecin = trouverEmployeLibre<Pediatre>();
@@ -129,7 +131,9 @@ void HopitalPoly::traiterPatients() {
                 medecin->examinerPatient(patients_[i]);
                 patients_ -= patients_[i];
             }
+            break;
         }
+        default: break;
         }
     }
 }

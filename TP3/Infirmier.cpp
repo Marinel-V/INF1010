@@ -66,7 +66,7 @@ void Infirmier::ajouterHeuresTravaillees(unsigned heures){
 }   
   
 float  Infirmier::calculerSalaire() const {
-	float salaire = heuresTravaillees_ * tauxHoraire_ + listeChambre_.size() * tauxHoraire_ / 20.0;
+	float salaire = static_cast<float>(heuresTravaillees_ * tauxHoraire_ + listeChambre_.size() * tauxHoraire_ / 20.0);
 	return  salaire;
 }
 
