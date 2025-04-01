@@ -1,0 +1,115 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/hopitalpoly.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "84a12af2b89508dfa57aabca94025f8c4ff26ba06d6b74eaec097485f7b9faf2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/hopitalpoly.h"
+          },
+          "hashes": {
+            "sha-256": "4fc4b69546911fa138c85a04dabbf3d0e3f8270eb825c938142a861872f402b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/employe.h"
+          },
+          "hashes": {
+            "sha-256": "0c7180770e3e401fd70dc6f83610932dedad800638358fb1637a888b9d3db6d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/medecin.h"
+          },
+          "hashes": {
+            "sha-256": "e54ba30b3ca3890be8551690b771594f9972f1ae782e6f4cd80f1d06149330c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/specialite.h"
+          },
+          "hashes": {
+            "sha-256": "249857f84f20fef71bfda0cae7efdfc304f5b10209c6d66ec39a2950ed6eb12a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/patient.h"
+          },
+          "hashes": {
+            "sha-256": "3197825a45ef173886558e5228ef4723b34b584ac23c2470bea2b4bd639292fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/infirmier.h"
+          },
+          "hashes": {
+            "sha-256": "a10dd7e7e5bead768ac0f6ceff8391b7d9559134ed0b68769156145247df382b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/pediatre.h"
+          },
+          "hashes": {
+            "sha-256": "fa02c9f4337d45313368bbb1804c18a6bed6e657c7be035835505c319d640372"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/chirurgien.h"
+          },
+          "hashes": {
+            "sha-256": "73a048d6cf18b943713270ea5fe53c77609edd674c4b7b5767376b065b5ca660"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/cardiologue.h"
+          },
+          "hashes": {
+            "sha-256": "274126b68bea17546ebd3ee0bd8b9d017557a51a5a0e724469d4b5b69baf2484"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/liste.h"
+          },
+          "hashes": {
+            "sha-256": "bfc1a6b82def5ca18cd1b0cdd04df12eb628c14c18e1f597f9c80f1ee0c570b0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+﻿  HopitalPoly.cpp
+C:\Users\Marinel\Documents\INF1010\TP4\HopitalPoly.cpp(85,90): warning C4100: 'employe': unreferenced formal parameter
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13): error C2664: '_Ret std::_Func_class<_Ret,const std::shared_ptr<Medecin> &>::operator ()(const std::shared_ptr<Medecin> &) const': cannot convert argument 1 from 'const std::shared_ptr<Employe>' to 'const std::shared_ptr<Medecin> &'
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13): error C2664:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13): error C2664:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13): error C2664:             _Ret=bool
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13): error C2664:         ]
+  (compiling source file '../HopitalPoly.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,19):
+      Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'const std::shared_ptr<Medecin>'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,19):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\functional(920,10):
+      see declaration of 'std::_Func_class<_Ret,const std::shared_ptr<Medecin> &>::operator ()'
+          with
+          [
+              _Ret=bool
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13):
+      while trying to match the argument list '(const std::shared_ptr<Employe>)'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1580,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\TP4\HopitalPoly.cpp(54,5):
+          see reference to function template instantiation '_OutIt std::copy_if<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>,std::function<bool (const std::shared_ptr<Medecin> &)>>(_InIt,_InIt,_OutIt,_Pr)' being compiled
+          with
+          [
+              _OutIt=std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>,
+              _Ty=std::shared_ptr<Employe>,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<Employe>>>>,
+              _Pr=std::function<bool (const std::shared_ptr<Medecin> &)>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const std::shared_ptr<Employe>' (or there is no acceptable conversion)
+  (compiling source file '../HopitalPoly.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\iterator(170,1):
+      could be 'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13):
+          'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &&)': cannot convert argument 2 from 'const std::shared_ptr<Employe>' to 'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &&'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\iterator(170,1):
+      or       'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(const std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13):
+          'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(const std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &)': cannot convert argument 2 from 'const std::shared_ptr<Employe>' to 'const std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'const std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\iterator(149,35):
+      or       'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(std::shared_ptr<Medecin> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13):
+          'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(std::shared_ptr<Medecin> &&)': cannot convert argument 2 from 'const std::shared_ptr<Employe>' to 'std::shared_ptr<Medecin> &&'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'std::shared_ptr<Medecin>'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\iterator(142,35):
+      or       'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(const std::shared_ptr<Medecin> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13):
+          'std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>> &std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>::operator =(const std::shared_ptr<Medecin> &)': cannot convert argument 2 from 'const std::shared_ptr<Employe>' to 'const std::shared_ptr<Medecin> &'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'const std::shared_ptr<Medecin>'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\algorithm(1581,13):
+      while trying to match the argument list '(std::insert_iterator<std::set<std::shared_ptr<Medecin>,ComparerPersonne<Medecin>,std::allocator<std::shared_ptr<Medecin>>>>, const std::shared_ptr<Employe>)'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13): error C2664: '_Ret std::_Func_class<_Ret,const Employe &>::operator ()(const Employe &) const': cannot convert argument 1 from 'const std::shared_ptr<Employe>' to 'const Employe &'
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13): error C2664:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13): error C2664:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13): error C2664:             _Ret=bool
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13): error C2664:         ]
+  (compiling source file '../HopitalPoly.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,19):
+      Reason: cannot convert from 'const std::shared_ptr<Employe>' to 'const Employe'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,19):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\functional(920,10):
+      see declaration of 'std::_Func_class<_Ret,const Employe &>::operator ()'
+          with
+          [
+              _Ret=bool
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13):
+      while trying to match the argument list '(const std::shared_ptr<Employe>)'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(6643,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\TP4\HopitalPoly.cpp(61,35):
+          see reference to function template instantiation '_InIt std::find_if<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::function<bool (const Employe &)>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<Employe>>>>,
+              _Ty=std::shared_ptr<Employe>,
+              _Pr=std::function<bool (const Employe &)>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,16): error C2664: 'float HopitalPoly::getSalaireTotal::<lambda_1>::operator ()(const std::shared_ptr<Employe> &,int) const': cannot convert argument 1 from 'int' to 'const std::shared_ptr<Employe> &'
+  (compiling source file '../HopitalPoly.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,36):
+      Reason: cannot convert from 'int' to 'const std::shared_ptr<Employe>'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,36):
+      'std::shared_ptr<Employe>::shared_ptr': no overloaded function could convert all the argument types
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1570,5):
+          could be 'std::shared_ptr<Employe>::shared_ptr(std::nullptr_t) noexcept'
+              C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,36):
+              'std::shared_ptr<Employe>::shared_ptr(std::nullptr_t) noexcept': cannot convert argument 1 from 'int' to 'std::nullptr_t'
+                  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,36):
+                  only a null pointer constant can be converted to nullptr_t
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1665,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1641,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1631,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1621,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(std::shared_ptr<_Ty2> &&,Employe *) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1615,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(const std::shared_ptr<_Ty2> &,Employe *) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1610,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(std::nullptr_t,_Dx,_Alloc)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1604,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(std::nullptr_t,_Dx)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1598,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(_Ux *,_Dx,_Alloc)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\memory(1590,5):
+          or       'std::shared_ptr<Employe>::shared_ptr(_Ux *,_Dx)'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,36):
+          while trying to match the argument list '(int)'
+      C:\Users\Marinel\Documents\INF1010\TP4\HopitalPoly.cpp(78,5):
+      see declaration of 'HopitalPoly::getSalaireTotal::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,16):
+      while trying to match the argument list '(int, const std::shared_ptr<Employe>)'
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,16):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Marinel\Documents\INF1010\TP4\HopitalPoly.cpp(77,18):
+          see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<Employe>>>>,int,HopitalPoly::getSalaireTotal::<lambda_1>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<Employe>>>>,
+              _Fn=HopitalPoly::getSalaireTotal::<lambda_1>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244: '=': conversion from '_T' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:             _T=float
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\numeric(31,26): warning C4244:         ]
+  (compiling source file '../HopitalPoly.cpp')
+  
+  Main.cpp
+C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(53,24): error C2385: ambiguous access of 'getNom'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(53,24):
+      could be the 'getNom' in base 'Employe'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(53,24):
+      or could be the 'getNom' in base 'Employe'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(53,24):
+      or could be the 'getNom' in base 'Employe'
+  
+C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(54,24): error C2385: ambiguous access of 'getId'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(54,24):
+      could be the 'getId' in base 'Employe'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(54,24):
+      or could be the 'getId' in base 'Employe'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(54,24):
+      or could be the 'getId' in base 'Employe'
+  
+C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(55,24): error C2385: ambiguous access of 'getSpecialite'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(55,24):
+      could be the 'getSpecialite' in base 'Medecin'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(55,24):
+      or could be the 'getSpecialite' in base 'Medecin'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(55,24):
+      or could be the 'getSpecialite' in base 'Medecin'
+  
+C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(57,24): error C2385: ambiguous access of 'getSpecialite'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(57,24):
+      could be the 'getSpecialite' in base 'Medecin'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(57,24):
+      or could be the 'getSpecialite' in base 'Medecin'
+      C:\Users\Marinel\Documents\INF1010\TP4\Main.cpp(57,24):
+      or could be the 'getSpecialite' in base 'Medecin'
+  
+  Generating Code...

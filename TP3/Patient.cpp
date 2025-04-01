@@ -2,7 +2,7 @@
 
 
 Patient::Patient(std::string nom, int age)
-    : nom_(nom), age_(age), typeSoins_(static_cast<TypeSoins>(3)), infirmier_(nullptr), medecin_(nullptr) {}
+    : nom_(nom), age_(age), typeSoins_(static_cast<TypeSoins>(3)), infirmier_(nullptr), medecin_(nullptr), numeroSalle_(-1) {}
 
 void Patient::setNom(const string& nom) {
     nom_ = nom;

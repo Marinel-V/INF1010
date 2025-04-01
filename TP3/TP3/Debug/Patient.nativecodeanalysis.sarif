@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/patient.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6f112da5d5445fc5d956e68ae08e29aa219fb6c178971b8c07c9f1b5f4065b0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/patient.h"
+          },
+          "hashes": {
+            "sha-256": "3197825a45ef173886558e5228ef4723b34b584ac23c2470bea2b4bd639292fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/medecin.h"
+          },
+          "hashes": {
+            "sha-256": "e54ba30b3ca3890be8551690b771594f9972f1ae782e6f4cd80f1d06149330c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/employe.h"
+          },
+          "hashes": {
+            "sha-256": "0c7180770e3e401fd70dc6f83610932dedad800638358fb1637a888b9d3db6d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/specialite.h"
+          },
+          "hashes": {
+            "sha-256": "249857f84f20fef71bfda0cae7efdfc304f5b10209c6d66ec39a2950ed6eb12a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marinel/documents/inf1010/tp3/infirmier.h"
+          },
+          "hashes": {
+            "sha-256": "a10dd7e7e5bead768ac0f6ceff8391b7d9559134ed0b68769156145247df382b"
+          }
+        }
+      ]
+    }
+  ]
+}
